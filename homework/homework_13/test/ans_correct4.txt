@@ -1,0 +1,106 @@
+Total class count is 7.
+Ok, operation count of class "Class1" is 5.
+Ok, operation count of class "Class1" is 2.
+Ok, operation count of class "Class1" is 3.
+Ok, operation count of class "Class1" is 1.
+Ok, operation count of class "Class1" is 4.
+Ok, operation count of class "Class2" is 2.
+Ok, operation count of class "Class2" is 2.
+Ok, operation count of class "Class2" is 0.
+Ok, operation count of class "Class2" is 0.
+Ok, operation count of class "Class2" is 2.
+Ok, operation count of class "Class3" is 1.
+Ok, operation count of class "Class3" is 1.
+Ok, operation count of class "Class3" is 0.
+Ok, operation count of class "Class3" is 0.
+Ok, operation count of class "Class3" is 1.
+Ok, operation count of class "Class4" is 3.
+Ok, operation count of class "Class4" is 3.
+Ok, operation count of class "Class4" is 0.
+Ok, operation count of class "Class4" is 0.
+Ok, operation count of class "Class4" is 3.
+Ok, operation count of class "Class5" is 1.
+Ok, operation count of class "Class5" is 1.
+Ok, operation count of class "Class5" is 0.
+Ok, operation count of class "Class5" is 0.
+Ok, operation count of class "Class5" is 1.
+Failed, duplicated class "Class6".
+Failed, duplicated class "Class6".
+Failed, duplicated class "Class6".
+Failed, duplicated class "Class6".
+Failed, duplicated class "Class6".
+Ok, attribute count of class "Class1" is 7.
+Ok, attribute count of class "Class1" is 4.
+Ok, attribute count of class "Class2" is 7.
+Ok, attribute count of class "Class2" is 0.
+Ok, attribute count of class "Class3" is 1.
+Ok, attribute count of class "Class3" is 1.
+Ok, attribute count of class "Class4" is 9.
+Ok, attribute count of class "Class4" is 2.
+Ok, attribute count of class "Class5" is 3.
+Ok, attribute count of class "Class5" is 3.
+Failed, duplicated class "Class6".
+Failed, duplicated class "Class6".
+Ok, association count of class "Class1" is 5.
+Ok, association count of class "Class2" is 8.
+Ok, association count of class "Class3" is 6.
+Ok, association count of class "Class4" is 9.
+Ok, association count of class "Class5" is 3.
+Failed, duplicated class "Class6".
+Ok, associated classes of class "Class1" are (Class1, Class4).
+Ok, associated classes of class "Class2" are (Class1, Class3, Class4).
+Ok, associated classes of class "Class3" are (Class2, Class6).
+Ok, associated classes of class "Class4" are (Class1, Class4, Class5).
+Ok, associated classes of class "Class5" are (Class4).
+Failed, duplicated class "Class6".
+Ok, operation visibility of method "Operation1" in class "Class1" is public: 2, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation2" in class "Class1" is public: 0, protected: 1, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation3" in class "Class1" is public: 0, protected: 0, private: 1, package-private: 0.
+Ok, operation visibility of method "Operation4" in class "Class1" is public: 0, protected: 0, private: 0, package-private: 1.
+Ok, operation visibility of method "Operation1" in class "Class2" is public: 1, protected: 0, private: 1, package-private: 0.
+Ok, operation visibility of method "Operation1" in class "Class3" is public: 1, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation1" in class "Class4" is public: 0, protected: 0, private: 1, package-private: 0.
+Ok, operation visibility of method "Operation2" in class "Class4" is public: 2, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation1" in class "Class5" is public: 1, protected: 0, private: 0, package-private: 0.
+Failed, duplicated attribute "Attribute1" in class "Class1".
+Failed, duplicated attribute "Attribute2" in class "Class1".
+Failed, duplicated attribute "Attribute3" in class "Class1".
+Ok, attribute "Attribute4" in class "Class1"'s visibility is package-private.
+Failed, duplicated attribute "Attribute1" in class "Class2".
+Failed, duplicated attribute "Attribute2" in class "Class2".
+Failed, duplicated attribute "Attribute3" in class "Class2".
+Ok, attribute "Attribute4" in class "Class2"'s visibility is package-private.
+Ok, attribute "Attribute1" in class "Class3"'s visibility is public.
+Failed, attribute "Attribute2" not found in class "Class3".
+Failed, attribute "Attribute3" not found in class "Class3".
+Failed, attribute "Attribute4" not found in class "Class3".
+Failed, duplicated attribute "Attribute1" in class "Class4".
+Failed, duplicated attribute "Attribute2" in class "Class4".
+Failed, duplicated attribute "Attribute3" in class "Class4".
+Ok, attribute "Attribute4" in class "Class4"'s visibility is package-private.
+Ok, attribute "Attribute1" in class "Class5"'s visibility is private.
+Ok, attribute "Attribute2" in class "Class5"'s visibility is public.
+Ok, attribute "Attribute3" in class "Class5"'s visibility is public.
+Failed, attribute "Attribute4" not found in class "Class5".
+Failed, duplicated class "Class6".
+Failed, duplicated class "Class6".
+Failed, duplicated class "Class6".
+Failed, duplicated class "Class6".
+Ok, top base class of class "Class1" is Class5.
+Ok, top base class of class "Class2" is Class5.
+Ok, top base class of class "Class3" is Class6.
+Ok, top base class of class "Class4" is Class5.
+Ok, top base class of class "Class5" is Class5.
+Failed, duplicated class "Class6".
+Ok, implement interfaces of class "Class1" are (Interface1, Interface3, Interface6, Interface7, Interface8, Interface9).
+Ok, implement interfaces of class "Class2" are (Interface1, Interface3, Interface6, Interface7, Interface8, Interface9).
+Ok, implement interfaces of class "Class3" are (Interface3).
+Ok, implement interfaces of class "Class4" are (Interface1, Interface2, Interface3, Interface4, Interface5, Interface6, Interface7, Interface8, Interface9).
+Ok, implement interfaces of class "Class5" are (Interface1, Interface3, Interface6, Interface7, Interface8, Interface9).
+Failed, duplicated class "Class6".
+No, attribute Attribute1 in Class1, Attribute2 in Class1, Attribute4 in Class1, Attribute2 in Class5, Attribute3 in Class5, are not hidden.
+No, attribute Attribute1 in Class1, Attribute2 in Class1, Attribute4 in Class1, Attribute2 in Class5, Attribute3 in Class5, are not hidden.
+No, attribute Attribute1 in Class3, are not hidden.
+No, attribute Attribute1 in Class1, Attribute2 in Class1, Attribute4 in Class1, Attribute1 in Class4, Attribute2 in Class5, Attribute3 in Class5, are not hidden.
+No, attribute Attribute2 in Class5, Attribute3 in Class5, are not hidden.
+Failed, duplicated class "Class6".

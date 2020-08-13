@@ -1,0 +1,21 @@
+Total class count is 116.
+Ok, operation count of class "Class113" is 0.
+Ok, operation count of class "Class113" is 0.
+Ok, operation count of class "Class113" is 0.
+Ok, operation count of class "Class113" is 0.
+Ok, operation count of class "Class113" is 0.
+Ok, attribute count of class "Class113" is 4.
+Ok, attribute count of class "Class113" is 0.
+Ok, association count of class "Class113" is 36.
+Ok, associated classes of class "Class113" are (Class1, Class10, Class11, Class12, Class13, Class14, Class16, Class17, Class19, Class2, Class3, Class38, Class4, Class40, Class42, Class44, Class45, Class46, Class47, Class48, Class5, Class50, Class51, Class6, Class7, Class8, Class9).
+Ok, operation visibility of method "Operation1" in class "Class113" is public: 0, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation2" in class "Class113" is public: 0, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation3" in class "Class113" is public: 0, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation4" in class "Class113" is public: 0, protected: 0, private: 0, package-private: 0.
+Ok, attribute "Attribute1" in class "Class113"'s visibility is private.
+Ok, attribute "Attribute2" in class "Class113"'s visibility is protected.
+Ok, attribute "Attribute3" in class "Class113"'s visibility is package-private.
+Ok, attribute "Attribute4" in class "Class113"'s visibility is public.
+Ok, top base class of class "Class113" is Class1.
+Ok, implement interfaces of class "Class113" are ().
+No, attribute Attribute2 in Class1, Attribute3 in Class1, Attribute4 in Class1, are not hidden.

@@ -1,0 +1,9 @@
+Ok, path id is 1.
+Ok, path id is 2.
+Ok, path id is 1.
+Ok, distinct node count of path is 4.
+Ok, distinct node count is 5.
+No.
+Yes.
+Ok, path id is 2.
+Ok, distinct node count is 4.

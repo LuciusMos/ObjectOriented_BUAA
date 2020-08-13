@@ -1,0 +1,72 @@
+(x * cos(x))
+sin(x ^ 2) * cos(sin(x)) ^ 2 * x ^ -2   (Wrong)
+x ^ 2 * x ^ -1
++ x ^ 2
++ cos(x) * cos(x)
+sin(sin(cos(cos(x^2))))^2
+sin(x^2)^2
+(-1 + x ^ 233)* sin(x^2) ^ 06 - cos(sin(x)) * 3 * sin((x))
+sin( ( x^2 + sin((1 + 3*x)) ) )
+sin((x+sin((x+1)))
+sin(x+cos(x+sin(x))+x)
+
+sin(x^2+sin(x)^2)^2
+sin(x^2+sin(x)^2)
+x^2
+x
+sin(x) ^ 2 + cos(x^3)^2 + 4 * sin(cos((1+x^2) + sin(x)^2))
+
+
+sin(sin(cos(x)))
+(x^2+x^3)*cos(x)
+sin((x-x))^0*x
+
+
+***my errors:***
+- -4*x + x ^ 2 + x
+sin(cos(x))
+sin((x^2))
+sin((2 * x)) * (x)
+sin(sin(cos(cos(x^2))))^2
+sin( ( x^2 + sin((1 + 3*x)) ) )
+sin((x+sin((x+1))))
+sin((x^2+cos((cos(x)^2+sin(x)^3+x))+3*3*3*sin(x)))
+sin(x)-sin(x)  (ArrayList)
+sin((- 10))
+***not tested:***
+cos(x)* sin(x)* 5+4 *x^3
+sin((2 * x)) * (cos(x)+1)
+(cos((7))*1*1*(0)*-1+0
+
+
+1.
+sin(x)^2+cos(x^3)^2+4*sin(cos(((1+x^2)+sin(x)^2)))
+2*sin(x)*cos(x)+sin((x^3))*-2*cos((x^3))*(3*x^2)+cos((cos(((1+x^2)+sin(x)^2))))*(sin(((1+x^2)+sin(x)^2))*-1*((2*x)+2*sin(x)*cos(x)))*4
+2*sin(x)*cos(x)*4+2*cos(x^3)*-1*sin(x^3)*3*x^2+cos(cos(((1+x^2)+sin(x)^2)))*-1*sin(((1+x^2)+sin(x)^2))*((2*x)+2*sin(x)*cos(x))*4
+
+2.
+sin((x^2+cos((cos(x)^2+sin(x)^3+x))+3*3*3*sin(x)))
+(cos((x^2+cos((cos(x)^2+sin(x)^3+x))+27*sin(x)))*1*(2*x+sin((cos(x)^2+sin(x)^3+x))*-1*(-2*cos(x)*sin(x)+3*sin(x)^2*cos(x)+1)+0+27*cos(x)))
+cos((x^2+cos((cos(x)^2+sin(x)^3+x))+27*sin(x)))*1*1*(2*x+sin((cos(x)^2+sin(x)^3+x))*-1*1*(-2*cos(x)*sin(x)+3*sin(x)^2*cos(x)+1*1)+0+1*1*cos(x)*27)
+cos((x^2+cos((cos(x)^2+sin(x)^3+x))+27*sin(x)))*1*1*(2*x+sin((cos(x)^2+sin(x)^3+x))*-1*1*(-2*cos(x)*sin(x)+3*sin(x)^2*cos(x)+1*1)+0*sin(x)+1*1*cos(x)*27)
+
+3.
+sin(x)  *(  sin ( (++1 -+1--1 * 4 *-3*+3 )) * -4+x^5 - -8*+6*+6*-7 ) 
+cos(x)*sin((1+1+-36))
+(cos(x))*(sin((++1 -+1--1 * 4 *-3*+3 )))
+
+4.
+sin(x)*(sin((1-1+1*4))*4) 
+cos(x)*(sin((1+1+4))*4)+(cos((1+1+4))*1*1*(0+0+0)*4+0)*sin(x)
+4*(cos(x))*(sin((1-1+1*4)))
+
+5.
+sin((2-1+4))
+
+6.
+sin((2-1+1*4))
+sin((1-1+4))
+sin((11-1+1*4))
+
+????:
+Sixth: fix bug(sin(- 10))

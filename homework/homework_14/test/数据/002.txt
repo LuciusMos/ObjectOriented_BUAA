@@ -1,0 +1,16 @@
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class1","_type":"UMLClass","_id":"AAAAAAFrbyaSlROabss="}
+{"_parent":"AAAAAAFrbyaSlROabss=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrbyefShTJKp0=","end1":"AAAAAAFrbyefShTInrU=","_id":"AAAAAAFrbyefShTHBII="}
+{"reference":"AAAAAAFrbyceMhP\/O9U=","multiplicity":"","_parent":"AAAAAAFrbyefShTHBII=","visibility":"public","name":"a1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrbyefShTJKp0="}
+{"reference":"AAAAAAFrbyaSlROabss=","multiplicity":"","_parent":"AAAAAAFrbyefShTHBII=","visibility":"public","name":"a1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrbyefShTInrU="}
+{"_parent":"AAAAAAFrbyaSlROabss=","visibility":"public","name":"Attribute1","_type":"UMLAttribute","_id":"AAAAAAFrbyawpRPs\/0I=","type":""}
+{"_parent":"AAAAAAFrbyaSlROabss=","visibility":"public","name":"Attribute2","_type":"UMLAttribute","_id":"AAAAAAFrbya8dBPyLy0=","type":""}
+{"_parent":"AAAAAAFrbyaSlROabss=","visibility":"public","name":"Attribute2","_type":"UMLAttribute","_id":"AAAAAAFrbybK7BP4n74=","type":""}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class2","_type":"UMLClass","_id":"AAAAAAFrbyab+BPDhro="}
+{"_parent":"AAAAAAFrbyab+BPDhro=","visibility":"public","name":"a1","_type":"UMLAttribute","_id":"AAAAAAFrbzOem7FCE7k=","type":""}
+{"_parent":"AAAAAAFrbyab+BPDhro=","visibility":"public","name":"a2","_type":"UMLAttribute","_id":"AAAAAAFrbzPHPLGRsmo=","type":""}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class3","_type":"UMLClass","_id":"AAAAAAFrbyceMhP\/O9U="}
+{"_parent":"AAAAAAFrbyceMhP\/O9U=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrbycuGBQqxqc=","end1":"AAAAAAFrbycuGBQp0qI=","_id":"AAAAAAFrbycuGBQoNsM="}
+{"reference":"AAAAAAFrbyab+BPDhro=","multiplicity":"","_parent":"AAAAAAFrbycuGBQoNsM=","visibility":"public","name":"a2","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrbycuGBQqxqc="}
+{"reference":"AAAAAAFrbyceMhP\/O9U=","multiplicity":"","_parent":"AAAAAAFrbycuGBQoNsM=","visibility":"public","name":"a1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrbycuGBQp0qI="}
+END_OF_MODEL
+CLASS_COUNT

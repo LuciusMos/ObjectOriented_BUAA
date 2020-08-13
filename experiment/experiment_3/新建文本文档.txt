@@ -1,0 +1,25 @@
+SaleTicket.java
+现象：无法完成指定需求。因为没有实现“每个售票窗口每售完一张票后休息1000毫秒”，所以出现了一个窗口连续售卖很多张票但票号不连续的情况，即输出顺序错乱。
+线程：一开始五个线程都处于WAITING状态，1000毫秒过后五个线程就都消亡了。
+对象：只有一个SaleTicket对象
+CPU负载：刚运行时CPU负载较高，而后很快基本降至0
+消耗内存：一个SaleTicket对象占据24字节
+
+SaleTicket1.java
+现象：可以完成指定需求。以五张票为一个周期，一个周期中每个窗口售卖一张票，两个周期间相隔1000毫秒。
+线程：一开始五个线程都处于WAITING状态，40个1000毫秒过后五个线程才消亡。
+对象：有一个SaleTicket1对象
+CPU负载：刚运行时CPU负载较高（但低于SaleTicket.java和SaleTicket2.java），而后很快基本降至0
+消耗内存：一个SaleTicket1对象占据16字节
+
+SaleTicket2.java/ MainClass.java
+现象：同SaleTicket1.java
+线程：同SaleTicket1.java
+对象：有五个SaleTicket2对象和一个Station对象
+CPU负载：刚运行时CPU负载较高，而后很快基本降至0
+消耗内存：五个SaleTicket2对象占据1920字节，一个Station对象占据16字节
+
+
+基本设计要点：
+如果将共享对象和线程对象放在了一个类中，如SaleTicket.java和SaleTicket1.java.在run方法中如果还有需要进行的任务（while内为真）时，则要在while语句块中实用synchronized对当前对象加同步锁，使得线程之间可以依次进行，完成互斥控制。此外还要注意要二次检测，即在synchronizde前后都对条件是否为真进行判断。
+如果将共享对象（本例中的Station）和线程对象（SaleTicket2）解耦成两个类（这个也是理论课上老师推荐的做法），则可以直接在共享对象类中将对共享对象进行操作的方法（saleTicket）加上synchronized关键字保证线程之间互斥。

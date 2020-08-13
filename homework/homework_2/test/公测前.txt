@@ -1,0 +1,29 @@
+-1-x -x*sin(x)
+2*sin(x)*cos(x)+2*x-2*sin(x)*cos(x)+2*x
+
+zja:
+sin(x)^4 + cos(x)^4  (8*sin(x)^3*cos(x)-4*sin(x)*cos(x))
+sin(x)^2 + cos(x)^3 - 3*cos(x)^2*cos(x) + 3*sin(x)^2 + 3*cos(x)^2 * sin(x)
+8*sin(x)^3*cos(x)-4*sin(x)*cos(x)
+cos(x)^4 + sin(x)^4 + 2*cos(x)^2 * sin(x)^2
+
+zyy:
+2*sin(x)^2*cos(x)-1-cos(x)^3   (7*sin(x)-9*sin(x)^3)
+2*cos(x)-1-3*cos(x)^3          (9*sin(x)*cos(x)^2-2*sin(x))
+3*sin(x)^2*cos(x)-cos(x)-1     (9*sin(x)*cos(x)^2-3*sin(x))
+
+xjy:
+x*sin(x)^-2+2*x*cos(x)^-2
+(sin(x)^-2+2*cos(x)^-2-2*x*sin(x)^-3*cos(x)+4*x*sin(x)*cos(x)^-3) //no sim
+(sin(x)^-2*cos(x)^-2+cos(x)^-2-2*x*sin(x)^-3*cos(x)+4*x*sin(x)*cos(x)^-3) //sim1
+(2*sin(x)^-2*cos(x)^-2-sin(x)^-2-2*x*sin(x)^-3*cos(x)+4*x*sin(x)*cos(x)^-3) //sim2
+(sin(x)^-2+2*cos(x)^-2-2*x*sin(x)^-3*cos(x)+4*x*sin(x)*cos(x)^-3) //sim3
+x*sin(x)^4+2*x*sin(x)^2*cos(x)^2+x*cos(x)^4
+(cos(x)^4+2*sin(x)^2-sin(x)^4)
+
+
+
+my wrongs:
+-1-x -x*sin(x)
+3*sin(x)^2*cos(x)-cos(x)-1
+x^13

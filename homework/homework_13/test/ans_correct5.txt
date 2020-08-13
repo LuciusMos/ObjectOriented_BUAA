@@ -1,0 +1,39 @@
+Ok, top base class of class "Class1" is Class4.
+Ok, top base class of class "Class2" is Class4.
+Ok, top base class of class "Class3" is Class4.
+Ok, attribute count of class "Class1" is 6.
+Ok, attribute count of class "Class1" is 13.
+Ok, attribute count of class "Class2" is 2.
+Ok, attribute count of class "Class2" is 7.
+Ok, attribute count of class "Class3" is 4.
+Ok, attribute count of class "Class3" is 5.
+Failed, duplicated attribute "Attribute1" in class "Class1".
+Failed, duplicated attribute "Attribute2" in class "Class1".
+Ok, attribute "Attribute7" in class "Class1"'s visibility is private.
+Failed, duplicated attribute "Attribute1" in class "Class2".
+Ok, attribute "Attribute2" in class "Class2"'s visibility is private.
+Ok, attribute "Attribute7" in class "Class2"'s visibility is private.
+Failed, duplicated attribute "Attribute1" in class "Class3".
+Ok, attribute "Attribute2" in class "Class3"'s visibility is private.
+Failed, attribute "Attribute7" not found in class "Class3".
+Ok, operation count of class "Class1" is 6.
+Ok, operation count of class "Class1" is 0.
+Ok, operation count of class "Class1" is 6.
+Ok, operation count of class "Class1" is 4.
+Ok, operation count of class "Class1" is 2.
+Ok, operation visibility of method "Operation1" in class "Class1" is public: 1, protected: 1, private: 1, package-private: 1.
+Ok, implement interfaces of class "Class1" are (Interface1, Interface1, Interface2, Interface3, Interface3, Interface4, Interface5, Interface6, Interface7, Interface8, Interface9).
+Ok, implement interfaces of class "Class2" are (Interface1, Interface3, Interface4).
+Ok, implement interfaces of class "Class3" are (Interface3, Interface4).
+No, attribute Attribute1 in Class3, are not hidden.
+No, attribute Attribute1 in Class3, are not hidden.
+No, attribute Attribute1 in Class3, are not hidden.
+Failed, duplicated class "Class4".
+Ok, association count of class "Class1" is 7.
+Ok, associated classes of class "Class1" are (Class1, Class2, Class3, Class4, Class4).
+Ok, association count of class "Class2" is 5.
+Ok, associated classes of class "Class2" are (Class1, Class3, Class4).
+Ok, association count of class "Class3" is 4.
+Ok, associated classes of class "Class3" are (Class3, Class4).
+Failed, duplicated class "Class4".
+Failed, duplicated class "Class4".

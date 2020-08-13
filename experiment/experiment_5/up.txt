@@ -1,0 +1,101 @@
+1.
+    /*@ public normal_behavior
+      @ requires index >=0 && index < queue.size();
+      @ assignable?queue;
+      @ ensures \result == \old(queue.get(index)) && queue.contains(\result)==false;
+      @ also
+      @ public exceptional_behavior
+      @ requires index < 0 || index >= queue.size();
+      @ signals_only InvalidRemoveException;
+      @*/
+    public Query removeQuery(int index) throws InvalidRemoveException {
+        //请依据规格补充此处缺少的代码
+        if (index < 0 || index >= queue.size()) {
+            throw new InvalidRemoveException("Invalid Remove!");
+        } else {
+            return queue.remove(index);
+        }
+    }
+	
+2.
+    /*@ public normal_behavior
+      @ requires req!=null && req.queryTime >= lastTime;
+      @ assignable?queue;
+      @ ensures (req.targetFloor == lowLevel) ==> \result == (req.queryDirection != Direction.DOWN);
+      @ ensures (req.targetFloor == highLevel) ==> \result ==(req.queryDirection != Direction.UP);
+      @ ensures (req.targetFloor > highLevel || req.targetFloor < lowLevel) ==> (\result == false);
+      // 此处请依据代码补充此处缺少的规格
+      // 注意描述能够将新的请求加入请求队列的队尾，保证原有的按时间先后排列的顺序
+      @ ensures (\result == true) ==> (queue.indexOf(req) == queue.size() - 1);
+      @ ensures (\result == true) ==> (\forall int i, j; 0 <= i && i < j && j < queue.size(); queue.get(i).getTime() <= queue.get(j).getTime());
+      @ ensures (\result == true) ==> (queue.size() == \old(queue.size()) + 1);
+      @ also
+      @ public exceptional_behavior
+      @ requires lastTime > req.getTime;
+      @ signals_only UnsortedException;
+      @*/
+    public boolean appendQuery(Query req) throws UnsortedException {
+        if (lastTime > req.getTime()) {
+            throw new UnsortedException("Unsorted Data.");
+        } else {
+            int target = req.getTarget();
+            Direction direct = req.getDirection();
+            if (target < highLevel && target > lowLevel
+                    || target == highLevel && direct != Direction.UP
+                    || target == lowLevel && direct != Direction.DOWN) {
+                //将新的请求加入请求队列的队尾，所有请求仍然按时间先后顺序排列
+                boolean state = queue.add(req);
+                if (state == true) {
+                    lastTime = req.getTime();
+                }
+                return state;
+            } else {
+                return false;
+            }
+        }
+    }
+
+3.
+    /*@ assignable curStatus;
+      @ ensures \result == (\old(curStatus.targetFloor - 1) >= lowLevel);
+      @ ensures (\old(curStatus.targetFloor - 1) >= lowLevel ==>
+      @          curStatus.targetFloor == \old(targetFloor) - 1 &&
+      @          curStatus.queryTime == \old(queryTime) + moveTime &&
+      @          curStatus.queryDirection == Query.Direction.DOWN;
+      @*/
+    public boolean moveDown() {
+        if (getCurFloor() - 1 < lowLevel) {
+            return false;
+        } else {
+            curStatus = new Query(getCurFloor() - 1,
+                    getCurTime() + moveTime, Query.Direction.DOWN);
+            return true;
+        }
+    }
+
+4.
+    //OVERVIEW: 将已判断为可捎带的请求加入当前捎带处理队列
+    /*@ requires req != null;
+      @ assignable curHandleQuery,curStatus;
+      @ ensures curHandleQuery.size() == (\old(curHandleQuery.size()) + 1) && curHandleQuery.contains(req);
+      @ ensures \old(curHandleQuery.isEmpty()) && (\old(curStatus.queryTime) < req.queryTime) ==>
+      @         curStatus.queryTime ==  req.queryTime 
+      @         && curStatus.targetFloor == \old(targetFloor)
+      @         && curStatus.queryDirection == \old(queryDirection);
+      @*/
+    public void pickupQuery(Query req) {
+        // 此处请依据给定的规格，把该方法的代码补充完整
+        if (req == null) {
+            return;
+        }
+        if (emptyQuery() && curStatus.getTime() < req.getTime()) {
+            curStatus = new Query(getCurFloor(), req.getTime(), getCurDirect());
+        }
+        curHandleQuery.add(req);
+    }
+cd existing_folder
+git init
+git remote add origin git@gitlab.buaaoo.top:oo_2019_homeworks/oo_course_2019_17373157_exp_5.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master

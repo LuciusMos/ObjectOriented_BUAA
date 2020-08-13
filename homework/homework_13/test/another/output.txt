@@ -1,0 +1,104 @@
+Total class count is 6.
+Ok, operation count of class "Top" is 4.
+Ok, operation count of class "Top" is 4.
+Ok, operation count of class "Top" is 0.
+Ok, operation count of class "Top" is 4.
+Ok, operation count of class "Top" is 0.
+Failed, duplicated class "Middle1".
+Failed, duplicated class "Middle1".
+Failed, duplicated class "Middle1".
+Failed, duplicated class "Middle1".
+Failed, duplicated class "Middle1".
+Ok, operation count of class "Middle2" is 5.
+Ok, operation count of class "Middle2" is 0.
+Ok, operation count of class "Middle2" is 5.
+Ok, operation count of class "Middle2" is 1.
+Ok, operation count of class "Middle2" is 4.
+Ok, operation count of class "Middle3" is 2.
+Ok, operation count of class "Middle3" is 2.
+Ok, operation count of class "Middle3" is 0.
+Ok, operation count of class "Middle3" is 2.
+Ok, operation count of class "Middle3" is 0.
+Ok, operation count of class "Bottom" is 3.
+Ok, operation count of class "Bottom" is 0.
+Ok, operation count of class "Bottom" is 3.
+Ok, operation count of class "Bottom" is 0.
+Ok, operation count of class "Bottom" is 3.
+Ok, attribute count of class "Top" is 3.
+Ok, attribute count of class "Top" is 3.
+Failed, duplicated class "Middle1".
+Failed, duplicated class "Middle1".
+Ok, attribute count of class "Middle2" is 8.
+Ok, attribute count of class "Middle2" is 3.
+Ok, attribute count of class "Middle3" is 8.
+Ok, attribute count of class "Middle3" is 3.
+Ok, attribute count of class "Bottom" is 11.
+Ok, attribute count of class "Bottom" is 3.
+Ok, association count of class "Top" is 4.
+Failed, duplicated class "Middle1".
+Ok, association count of class "Middle2" is 15.
+Ok, association count of class "Middle3" is 12.
+Ok, association count of class "Bottom" is 17.
+Ok, associated classes of class "Top" are (Middle1, Top).
+Failed, duplicated class "Middle1".
+Ok, associated classes of class "Middle2" are (Bottom, Middle1, Middle1, Middle2, Middle3, Top).
+Ok, associated classes of class "Middle3" are (Bottom, Middle1, Middle1, Middle3, Top).
+Ok, associated classes of class "Bottom" are (Bottom, Middle1, Middle1, Middle2, Middle3, Top).
+Ok, operation visibility of method "Operation1" in class "Top" is public: 1, protected: 1, private: 1, package-private: 1.
+Failed, duplicated class "Middle1".
+Ok, operation visibility of method "c" in class "Middle2" is public: 1, protected: 1, private: 1, package-private: 2.
+Ok, operation visibility of method "Operation1" in class "Middle3" is public: 1, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation2" in class "Middle3" is public: 1, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "normal" in class "Bottom" is public: 1, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "normal1" in class "Bottom" is public: 0, protected: 1, private: 0, package-private: 0.
+Ok, operation visibility of method "normal2" in class "Bottom" is public: 0, protected: 0, private: 0, package-private: 1.
+Ok, attribute "a" in class "Top"'s visibility is private.
+Ok, attribute "b" in class "Top"'s visibility is private.
+Ok, attribute "c" in class "Top"'s visibility is private.
+Failed, duplicated class "Middle1".
+Failed, duplicated class "Middle1".
+Ok, attribute "d" in class "Middle3"'s visibility is protected.
+Failed, duplicated attribute "e" in class "Middle3".
+Ok, attribute "f" in class "Middle2"'s visibility is public.
+Ok, attribute "g" in class "Middle2"'s visibility is private.
+Ok, attribute "h" in class "Middle2"'s visibility is protected.
+Ok, attribute "i" in class "Bottom"'s visibility is private.
+Ok, attribute "j" in class "Bottom"'s visibility is private.
+Ok, attribute "k" in class "Bottom"'s visibility is private.
+Ok, top base class of class "Top" is Top.
+Failed, duplicated class "Middle1".
+Ok, top base class of class "Middle2" is Top.
+Ok, top base class of class "Middle3" is Top.
+Ok, top base class of class "Bottom" is Top.
+Ok, implement interfaces of class "Top" are (Top1).
+Failed, duplicated class "Middle1".
+Ok, implement interfaces of class "Middle2" are (Middle1, Middle2, Top, Top1).
+Ok, implement interfaces of class "Middle3" are (Middle1, Top, Top1).
+Ok, implement interfaces of class "Bottom" are (End, Middle1, Middle2, Middle3, Middle4, Top, Top1).
+Yes, information of class "Top" is hidden.
+Failed, duplicated class "Middle1".
+No, attribute a in Middle1, f in Middle2, h in Middle2, are not hidden.
+No, attribute a in Middle1, d in Middle3, e in Middle3, are not hidden.
+No, attribute a in Middle1, f in Middle2, h in Middle2, are not hidden.
+Failed, class "Top1" not found
+Ok, attribute count of class "Middle2" is 8.
+Ok, attribute count of class "Middle3" is 3.
+Failed, class "Middle5" not found
+Failed, class "Middle5" not found
+Failed, class "Top2" not found
+Failed, class "Middle6" not found
+Failed, class "Top2" not found
+Ok, operation visibility of method "Operation2" in class "Top" is public: 0, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation11" in class "Middle3" is public: 0, protected: 0, private: 0, package-private: 0.
+Failed, class "Middle6" not found
+Failed, attribute "hj" not found in class "Top".
+Failed, attribute "hjk" not found in class "Middle3".
+Failed, class "Middle6" not found
+Failed, class "Top3" not found
+Failed, class "Top3" not found
+Failed, class "Middle6" not found
+Failed, class "Top6" not found
+Failed, class "Middle13" not found
+Failed, class "error" not found
+Failed, class "Middle6" not found
+Failed, class "Top2" not found

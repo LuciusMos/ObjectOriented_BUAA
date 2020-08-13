@@ -1,0 +1,41 @@
+Total class count is 10.
+Ok, operation count of class "Class2" is 4.
+Ok, operation count of class "Class2" is 1.
+Ok, operation count of class "Class3" is 2.
+Failed, duplicated class "Class4".
+Ok, operation count of class "Class5" is 2.
+Ok, attribute count of class "Class1" is 0.
+Ok, attribute count of class "Class2" is 3.
+Ok, attribute count of class "Class3" is 3.
+Ok, attribute count of class "Class3" is 6.
+Ok, attribute count of class "Class5" is 9.
+Ok, attribute count of class "Class5" is 3.
+Ok, association count of class "Class2" is 3.
+Ok, association count of class "Class7" is 1.
+Ok, association count of class "Class8" is 2.
+Ok, association count of class "Class5" is 6.
+Ok, associated classes of class "Class2" are (Class3, Class4).
+Ok, associated classes of class "Class7" are (Class3).
+Ok, associated classes of class "Class8" are (Class3).
+Failed, duplicated class "Class4".
+Ok, associated classes of class "Class5" are (Class2, Class3, Class4, Class7, Class8).
+Ok, associated classes of class "Class6" are (Class2, Class3, Class4, Class7, Class8).
+Failed, class "classname" not found
+Ok, operation visibility of method "Operation1" in class "Class2" is public: 1, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation2" in class "Class2" is public: 2, protected: 1, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation1" in class "Class5" is public: 2, protected: 0, private: 0, package-private: 0.
+Ok, operation visibility of method "Operation10" in class "Class5" is public: 0, protected: 0, private: 0, package-private: 0.
+Ok, attribute "Attribute1" in class "Class2"'s visibility is private.
+Failed, duplicated attribute "Attribute1" in class "Class3".
+Failed, attribute "Attribute1" not found in class "Class9".
+Ok, top base class of class "Class2" is Class1.
+Ok, top base class of class "Class5" is Class1.
+Ok, top base class of class "Class8" is Class7.
+Ok, top base class of class "Class7" is Class7.
+Ok, implement interfaces of class "Class2" are (Interface1, Interface2, Interface3, Interface4, Interface5, Interface6).
+Ok, implement interfaces of class "Class3" are (Interface1, Interface2, Interface3, Interface4, Interface5, Interface6).
+Ok, implement interfaces of class "Class6" are (Interface1, Interface2, Interface3, Interface4, Interface5, Interface6).
+No, attribute Attribute3 in Class2, Attribute1 in Class3, Attribute5 in Class3, are not hidden.
+No, attribute Attribute3 in Class2, Attribute1 in Class3, Attribute5 in Class3, are not hidden.
+No, attribute Attribute3 in Class2, are not hidden.
+Yes, information of class "Class8" is hidden.

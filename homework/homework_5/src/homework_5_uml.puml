@@ -1,0 +1,6 @@
+@startuml
+Main -> Input: Start
+Input -> RequestQueue: Add requests
+Main -> Elevator: Start
+Elevator -> RequestQueue: Process requests
+@enduml

@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8901af3-a315-49b8-b8a3-761ae6eefa65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Term.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Term.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Wrong.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Term.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4250">
+              <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Poly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding>
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Composite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Const.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Xpow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Factor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>coefPositive</find>
+      <find>for</find>
+      <find>index</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Xpos.java" />
+        <option value="$PROJECT_DIR$/src/StringProcess.java" />
+        <option value="$PROJECT_DIR$/src/WrongFormat.java" />
+        <option value="$PROJECT_DIR$/src/WF.java" />
+        <option value="$PROJECT_DIR$/src/Const.java" />
+        <option value="$PROJECT_DIR$/src/Factor.java" />
+        <option value="$PROJECT_DIR$/src/Wrong.java" />
+        <option value="$PROJECT_DIR$/src/Composite.java" />
+        <option value="$PROJECT_DIR$/src/Cos.java" />
+        <option value="$PROJECT_DIR$/src/Sin.java" />
+        <option value="$PROJECT_DIR$/src/Xpow.java" />
+        <option value="$PROJECT_DIR$/src/Poly.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Term.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="homework_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553615337917" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JProfiler_preview" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="homework_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PolyTest" />
+      <module name="homework_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProcessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringProcessTest" />
+      <module name="homework_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TermTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TermTest" />
+      <module name="homework_3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PolyTest" />
+        <item itemvalue="Application.TermTest" />
+        <item itemvalue="Application.StringProcessTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8901af3-a315-49b8-b8a3-761ae6eefa65" name="Default Changelist" comment="" />
+      <created>1552719114300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552719114300</updated>
+      <workItem from="1552719117879" duration="12747000" />
+      <workItem from="1552802499316" duration="25355000" />
+      <workItem from="1552897809300" duration="10476000" />
+      <workItem from="1552912753659" duration="11447000" />
+      <workItem from="1552967138352" duration="3055000" />
+      <workItem from="1552999977679" duration="645000" />
+      <workItem from="1553002207785" duration="802000" />
+      <workItem from="1553082152497" duration="1862000" />
+      <workItem from="1553135118965" duration="614000" />
+      <workItem from="1553604071806" duration="3297000" />
+      <workItem from="1553780228872" duration="953000" />
+      <workItem from="1553781223722" duration="767000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="72020000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.082439676" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3240469" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.1920821" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32991204" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" sideWeight="0.49798927" weight="0.32844576" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.32844576" />
+      <window_info anchor="bottom" id="Statistic" order="11" weight="0.3323442" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.29575402" />
+      <window_info anchor="bottom" id="Metrics" order="15" visible="true" weight="0.3431085" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19571045" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Const.java</url>
+          <line>6</line>
+          <properties class="Const" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Composite.java</url>
+          <line>8</line>
+          <properties class="Composite" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Composite.java</url>
+          <line>52</line>
+          <properties class="Composite" method="derivate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Poly.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="getCompositeOut(factorString)" />
+        <watch expression="getExpo(factorString,')')" />
+        <watch expression="getCompositeIn(factorString)" />
+        <watch expression="termPositive" />
+        <watch expression="coefPositive" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i == termTemp.length()-2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>termPositive.get(termsString.indexOf(termString))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>terms</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>factors</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>termTemp.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>polyIn</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>polyIn.poly</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/StringProcess.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="615.2117794486218" y="876.0">Composite</node>
+            <node x="517.1909461152884" y="416.0">Cos</node>
+            <node x="210.33333333333337" y="176.0">Const</node>
+            <node x="32.5" y="416.0">Xpow</node>
+            <node x="280.6875000000001" y="1757.0">Poly</node>
+            <node x="222.4375000000001" y="1136.0">Term</node>
+            <node x="650.4766995614037" y="234.5">Wrong</node>
+            <node x="295.9766995614036" y="0.0">Factor</node>
+            <node x="344.7117794486217" y="636.0">Sin</node>
+            <node x="366.1875000000001" y="2115.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Sin" target="Const">
+              <point x="-97.08333333333337" y="-85.0" />
+              <point x="364.12844611528834" y="616.0" />
+              <point x="377.00344611528834" y="616.0" />
+              <point x="377.00344611528834" y="376.0" />
+              <point x="385.08333333333337" y="376.0" />
+              <point x="58.25" y="85.0" />
+            </edge>
+            <edge source="Xpow" target="Wrong">
+              <point x="91.875" y="-85.0" />
+              <point x="246.875" y="386.0" />
+              <point x="665.9766995614037" y="386.0" />
+              <point x="-77.5" y="26.5" />
+            </edge>
+            <edge source="Term" target="Const">
+              <point x="-31.375000000000057" y="-280.5" />
+              <point x="316.56250000000006" y="1076.0" />
+              <point x="288.00000000000006" y="1076.0" />
+              <point x="288.00000000000006" y="376.0" />
+              <point x="268.58333333333337" y="376.0" />
+              <point x="-58.25" y="85.0" />
+            </edge>
+            <edge source="Sin" target="Cos">
+              <point x="58.25" y="-85.0" />
+              <point x="519.4617794486217" y="616.0" />
+              <point x="536.6076127819551" y="616.0" />
+              <point x="-97.08333333333331" y="85.0" />
+            </edge>
+            <edge source="Term" target="Composite">
+              <point x="94.125" y="-280.5" />
+              <point x="442.0625000000001" y="1106.0" />
+              <point x="655.5451127819551" y="1106.0" />
+              <point x="-80.66666666666663" y="85.0" />
+            </edge>
+            <edge source="Term" target="Cos">
+              <point x="52.29166666666663" y="-280.5" />
+              <point x="400.22916666666674" y="1086.0" />
+              <point x="593.7117794486217" y="1086.0" />
+              <point x="593.7117794486217" y="606.0" />
+              <point x="614.2742794486217" y="606.0" />
+              <point x="-19.416666666666686" y="85.0" />
+            </edge>
+            <edge source="Term" target="Xpow">
+              <point x="-52.29166666666674" y="-280.5" />
+              <point x="295.64583333333337" y="1086.0" />
+              <point x="167.43503289473705" y="1086.0" />
+              <point x="167.43503289473705" y="616.0" />
+              <point x="216.25" y="616.0" />
+              <point x="61.25" y="85.0" />
+            </edge>
+            <edge source="Composite" target="Factor">
+              <point x="105.87500000000003" y="-85.0" />
+              <point x="842.0867794486218" y="856.0" />
+              <point x="937.4558662280704" y="856.0" />
+              <point x="937.4558662280704" y="106.0" />
+              <point x="504.01241384711795" y="106.0" />
+              <point x="91.53571428571428" y="38.0" />
+            </edge>
+            <edge source="Composite" target="Cos">
+              <point x="-15.125" y="-85.0" />
+              <point x="721.0867794486218" y="856.0" />
+              <point x="736.9766995614037" y="856.0" />
+              <point x="736.9766995614037" y="616.0" />
+              <point x="691.9409461152884" y="616.0" />
+              <point x="58.25" y="85.0" />
+            </edge>
+            <edge source="Term" target="Wrong">
+              <point x="115.04166666666669" y="-280.5" />
+              <point x="462.9791666666668" y="1116.0" />
+              <point x="867.7117794486218" y="1116.0" />
+              <point x="867.7117794486218" y="386.0" />
+              <point x="789.9766995614037" y="386.0" />
+              <point x="46.5" y="26.5" />
+            </edge>
+            <edge source="Cos" target="Sin">
+              <point x="-58.25" y="85.0" />
+              <point x="575.4409461152884" y="616.0" />
+              <point x="558.2951127819551" y="616.0" />
+              <point x="97.08333333333337" y="-85.0" />
+            </edge>
+            <edge source="Const" target="Factor">
+              <point x="-58.25" y="-85.0" />
+              <point x="268.58333333333337" y="146.0" />
+              <point x="387.51241384711795" y="146.0" />
+              <point x="-24.964285714285722" y="38.0" />
+            </edge>
+            <edge source="Term" target="Poly">
+              <point x="94.125" y="280.5" />
+              <point x="442.0625000000001" y="1737.0" />
+              <point x="426.9375000000001" y="1737.0" />
+              <point x="16.25" y="-154.0" />
+            </edge>
+            <edge source="Sin" target="Factor">
+              <point x="-19.41666666666663" y="-85.0" />
+              <point x="441.7951127819551" y="616.0" />
+              <point x="464.83333333333337" y="616.0" />
+              <point x="464.83333333333337" y="146.0" />
+              <point x="437.4409852756894" y="146.0" />
+              <point x="24.964285714285722" y="38.0" />
+            </edge>
+            <edge source="Poly" target="Factor">
+              <point x="-113.75" y="-154.0" />
+              <point x="296.9375000000001" y="1737.0" />
+              <point x="0.0" y="1737.0" />
+              <point x="0.0" y="96.0" />
+              <point x="304.2981281328322" y="96.0" />
+              <point x="-108.17857142857144" y="38.0" />
+            </edge>
+            <edge source="Cos" target="Wrong">
+              <point x="87.37499999999994" y="-85.0" />
+              <point x="721.0659461152884" y="396.0" />
+              <point x="727.9766995614037" y="396.0" />
+              <point x="-15.5" y="26.5" />
+            </edge>
+            <edge source="Composite" target="Sin">
+              <point x="-75.625" y="-85.0" />
+              <point x="660.5867794486218" y="836.0" />
+              <point x="490.3367794486217" y="836.0" />
+              <point x="29.125" y="85.0" />
+            </edge>
+            <edge source="Main" target="Poly">
+              <point x="-73.0" y="-38.0" />
+              <point x="402.6875000000001" y="2090.0" />
+              <point x="345.6875000000001" y="2090.0" />
+              <point x="-65.0" y="154.0" />
+            </edge>
+            <edge source="Poly" target="Term">
+              <point x="-16.25" y="-154.0" />
+              <point x="394.4375000000001" y="1737.0" />
+              <point x="379.3125000000001" y="1737.0" />
+              <point x="31.375" y="280.5" />
+            </edge>
+            <edge source="Composite" target="Wrong">
+              <point x="45.37500000000003" y="-85.0" />
+              <point x="781.5867794486218" y="856.0" />
+              <point x="789.2173793859652" y="856.0" />
+              <point x="789.2173793859652" y="396.0" />
+              <point x="758.9766995614037" y="396.0" />
+              <point x="15.5" y="26.5" />
+            </edge>
+            <edge source="Xpow" target="Factor">
+              <point x="-30.625" y="-85.0" />
+              <point x="124.375" y="396.0" />
+              <point x="116.17571271929842" y="396.0" />
+              <point x="116.17571271929842" y="136.0" />
+              <point x="370.86955670426084" y="136.0" />
+              <point x="-41.60714285714283" y="38.0" />
+            </edge>
+            <edge source="Term" target="Factor">
+              <point x="-115.0416666666668" y="-280.5" />
+              <point x="232.89583333333331" y="1116.0" />
+              <point x="11.0" y="1116.0" />
+              <point x="11.0" y="106.0" />
+              <point x="320.9409852756894" y="106.0" />
+              <point x="-91.53571428571428" y="38.0" />
+            </edge>
+            <edge source="Composite" target="Const">
+              <point x="-105.875" y="-85.0" />
+              <point x="630.3367794486218" y="846.0" />
+              <point x="310.00000000000006" y="846.0" />
+              <point x="310.00000000000006" y="376.0" />
+              <point x="346.25" y="376.0" />
+              <point x="19.41666666666663" y="85.0" />
+            </edge>
+            <edge source="Composite" target="Poly">
+              <point x="80.66666666666666" y="85.0" />
+              <point x="816.8784461152884" y="1106.0" />
+              <point x="805.75" y="1106.0" />
+              <point x="805.75" y="1727.0" />
+              <point x="491.9375000000001" y="1727.0" />
+              <point x="81.25" y="-154.0" />
+            </edge>
+            <edge source="Cos" target="Factor">
+              <point x="-29.125000000000057" y="-85.0" />
+              <point x="604.5659461152884" y="376.0" />
+              <point x="590.3516995614036" y="376.0" />
+              <point x="590.3516995614036" y="136.0" />
+              <point x="454.0838424185465" y="136.0" />
+              <point x="41.60714285714283" y="38.0" />
+            </edge>
+            <edge source="Sin" target="Wrong">
+              <point x="19.41666666666663" y="-85.0" />
+              <point x="480.62844611528834" y="616.0" />
+              <point x="486.1284461152884" y="616.0" />
+              <point x="486.1284461152884" y="396.0" />
+              <point x="696.9766995614037" y="396.0" />
+              <point x="-46.5" y="26.5" />
+            </edge>
+            <edge source="Xpow" target="Const">
+              <point x="30.625" y="-85.0" />
+              <point x="185.625" y="396.0" />
+              <point x="229.75" y="396.0" />
+              <point x="-97.08333333333334" y="85.0" />
+            </edge>
+            <edge source="Cos" target="Const">
+              <point x="-87.37500000000006" y="-85.0" />
+              <point x="546.3159461152884" y="376.0" />
+              <point x="423.91666666666674" y="376.0" />
+              <point x="97.08333333333337" y="85.0" />
+            </edge>
+            <edge source="Term" target="Sin">
+              <point x="31.375" y="-280.5" />
+              <point x="379.3125000000001" y="1076.0" />
+              <point x="417.58333333333337" y="1076.0" />
+              <point x="417.58333333333337" y="856.0" />
+              <point x="432.0867794486217" y="856.0" />
+              <point x="-29.125" y="85.0" />
+            </edge>
+            <edge source="Main" target="Wrong">
+              <point x="73.0" y="-38.0" />
+              <point x="548.6875000000001" y="2090.0" />
+              <point x="915.4558662280704" y="2090.0" />
+              <point x="915.4558662280704" y="376.0" />
+              <point x="820.9766995614037" y="376.0" />
+              <point x="77.5" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6711864406779661" x="-282.0" y="348.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>Project Files</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wrong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Term.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Poly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Xpow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>homework_3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

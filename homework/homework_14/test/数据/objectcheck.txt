@@ -1,0 +1,19 @@
+{"_parent":"AAAAAAFrbxVifjTbS+0=","visibility":"public","name":"Interaction2","_type":"UMLInteraction","_id":"AAAAAAFrbxVifzTcTz8="}
+{"_parent":"AAAAAAFrbxVifzTcTz8=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrbxVwozTrAo0=","represent":"AAAAAAFrbxVwozTqqUQ="}
+{"_parent":"AAAAAAFrbxVifzTcTz8=","visibility":"public","name":"Lifeline2","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrbxV6qTUK7oo=","represent":"AAAAAAFrbxV6qTUJWSk="}
+{"_parent":"AAAAAAFrbxVifzTcTz8=","visibility":"public","name":"Lifeline3","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrbxV\/AjUpAJg=","represent":"AAAAAAFrbxV\/AjUoBnk="}
+{"_parent":"AAAAAAFrbxVifzTcTz8=","visibility":"public","name":"Lifeline3","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrbxWS0TVJIVs=","represent":"AAAAAAFrbxWS0TVIADQ="}
+{"_parent":"AAAAAAFrbxVifjTbS+0=","visibility":"public","name":"Interaction3","_type":"UMLInteraction","_id":"AAAAAAFrbxre3+UBaN4="}
+{"_parent":"AAAAAAFrbxVifjTbS+0=","visibility":"public","name":"Role1","_type":"UMLAttribute","_id":"AAAAAAFrbxVwozTqqUQ=","type":""}
+{"_parent":"AAAAAAFrbxVifjTbS+0=","visibility":"public","name":"Role2","_type":"UMLAttribute","_id":"AAAAAAFrbxV6qTUJWSk=","type":""}
+{"_parent":"AAAAAAFrbxVifjTbS+0=","visibility":"public","name":"Role3","_type":"UMLAttribute","_id":"AAAAAAFrbxV\/AjUoBnk=","type":""}
+{"_parent":"AAAAAAFrbxVifjTbS+0=","visibility":"public","name":"Role4","_type":"UMLAttribute","_id":"AAAAAAFrbxWS0TVIADQ=","type":""}
+{"_parent":"AAAAAAFrbxX6KjVo2Hw=","visibility":"public","name":"Interaction1","_type":"UMLInteraction","_id":"AAAAAAFrbxX6KjVphMg="}
+{"_parent":"AAAAAAFrbxX6KjVphMg=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrbxZsJTV4m0Q=","represent":"AAAAAAFrbxZsJTV3VOw="}
+{"_parent":"AAAAAAFrbxX6KjVo2Hw=","visibility":"public","name":"Interaction1","_type":"UMLInteraction","_id":"AAAAAAFrbxhp4eBFuvM="}
+{"_parent":"AAAAAAFrbxX6KjVo2Hw=","visibility":"public","name":"Interaction3","_type":"UMLInteraction","_id":"AAAAAAFrbxt7MOUKP14="}
+{"_parent":"AAAAAAFrbxX6KjVo2Hw=","visibility":"public","name":"Role1","_type":"UMLAttribute","_id":"AAAAAAFrbxZsJTV3VOw=","type":""}
+END_OF_MODEL
+PTCP_OBJ_COUNT Interaction2
+PTCP_OBJ_COUNT Interaction1
+PTCP_OBJ_COUNT Interaction3

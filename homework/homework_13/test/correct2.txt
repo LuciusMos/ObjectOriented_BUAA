@@ -1,0 +1,39 @@
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"C","_type":"UMLClass","_id":"AAAAAAFrEj2cBLMCm8U="}
+{"_parent":"AAAAAAFrEj2cBLMCm8U=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrEj5vOLPbM5k=","end1":"AAAAAAFrEj5vOLPaqiQ=","_id":"AAAAAAFrEj5vOLPZ15g="}
+{"reference":"AAAAAAFrEj2zDLMs5CA=","multiplicity":"","_parent":"AAAAAAFrEj5vOLPZ15g=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEj5vOLPbM5k="}
+{"reference":"AAAAAAFrEj2cBLMCm8U=","multiplicity":"","_parent":"AAAAAAFrEj5vOLPZ15g=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEj5vOLPaqiQ="}
+{"_parent":"AAAAAAFrEj2cBLMCm8U=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrEj6GW7QeRqM=","end1":"AAAAAAFrEj6GW7QdIEI=","_id":"AAAAAAFrEj6GW7QcXco="}
+{"reference":"AAAAAAFrEj3bULOAbgs=","multiplicity":"","_parent":"AAAAAAFrEj6GW7QcXco=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEj6GW7QeRqM="}
+{"reference":"AAAAAAFrEj2cBLMCm8U=","multiplicity":"","_parent":"AAAAAAFrEj6GW7QcXco=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEj6GW7QdIEI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"A","_type":"UMLClass","_id":"AAAAAAFrEj2zDLMs5CA="}
+{"_parent":"AAAAAAFrEj2zDLMs5CA=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrEj7WvbTi\/Kw=","end1":"AAAAAAFrEj7WvbThUp0=","_id":"AAAAAAFrEj7WvLTgQGM="}
+{"reference":"AAAAAAFrEj3HFrNWr1A=","multiplicity":"","_parent":"AAAAAAFrEj7WvLTgQGM=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEj7WvbTi\/Kw="}
+{"reference":"AAAAAAFrEj2zDLMs5CA=","multiplicity":"","_parent":"AAAAAAFrEj7WvLTgQGM=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEj7WvbThUp0="}
+{"_parent":"AAAAAAFrEj2zDLMs5CA=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrEkPIZ78wj24=","source":"AAAAAAFrEj2zDLMs5CA=","target":"AAAAAAFrEkOUJr5\/8pQ="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"B","_type":"UMLClass","_id":"AAAAAAFrEj3HFrNWr1A="}
+{"_parent":"AAAAAAFrEj3HFrNWr1A=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrEj6kfLRu1mE=","source":"AAAAAAFrEj3HFrNWr1A=","target":"AAAAAAFrEj2zDLMs5CA="}
+{"_parent":"AAAAAAFrEj3HFrNWr1A=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrEkGKELugv\/Q=","source":"AAAAAAFrEj3HFrNWr1A=","target":"AAAAAAFrEj4TabOqNug="}
+{"_parent":"AAAAAAFrEj3HFrNWr1A=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrEkHn87yXyR0=","end1":"AAAAAAFrEkHn87yWd1M=","_id":"AAAAAAFrEkHn87yVEdA="}
+{"reference":"AAAAAAFrEj2zDLMs5CA=","multiplicity":"","_parent":"AAAAAAFrEkHn87yVEdA=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEkHn87yXyR0="}
+{"reference":"AAAAAAFrEj3HFrNWr1A=","multiplicity":"","_parent":"AAAAAAFrEkHn87yVEdA=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEkHn87yWd1M="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"IA","_type":"UMLInterface","_id":"AAAAAAFrEj3bULOAbgs="}
+{"_parent":"AAAAAAFrEj3bULOAbgs=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrEj\/YFri1w8k=","end1":"AAAAAAFrEj\/YFri0kvA=","_id":"AAAAAAFrEj\/YDrizfkg="}
+{"reference":"AAAAAAFrEj4TabOqNug=","multiplicity":"","_parent":"AAAAAAFrEj\/YDrizfkg=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEj\/YFri1w8k="}
+{"reference":"AAAAAAFrEj3bULOAbgs=","multiplicity":"","_parent":"AAAAAAFrEj\/YDrizfkg=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrEj\/YFri0kvA="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"IB","_type":"UMLInterface","_id":"AAAAAAFrEj4TabOqNug="}
+{"_parent":"AAAAAAFrEj4TabOqNug=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrEj+zCbhIxXc=","source":"AAAAAAFrEj4TabOqNug=","target":"AAAAAAFrEj3bULOAbgs="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"IC","_type":"UMLInterface","_id":"AAAAAAFrEkOUJr5\/8pQ="}
+END_OF_MODEL
+CLASS_IMPLEMENT_INTERFACE_LIST B
+CLASS_ASSO_COUNT A
+CLASS_ASSO_COUNT B
+CLASS_ASSO_CLASS_LIST A
+CLASS_ASSO_CLASS_LIST B
+
+
+
+Ok, implement interfaces of class "B" are (IA, IB, IC).
+Ok, association count of class "A" is 3.
+Ok, association count of class "B" is 5.
+Ok, associated classes of class "A" are (B, C).
+Ok, associated classes of class "B" are (A, B, C).

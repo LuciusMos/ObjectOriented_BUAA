@@ -1,0 +1,17 @@
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class1","_type":"UMLClass","_id":"AAAAAAFraUEOYCerV1A="}
+{"_parent":"AAAAAAFraUEOYCerV1A=","name":"Attribute3","_type":"UMLAssociation","end2":"AAAAAAFraUHSqigac8g=","end1":"AAAAAAFraUHSqigZJXY=","_id":"AAAAAAFraUHSqigYgaQ="}
+{"reference":"AAAAAAFraUGgPifg\/88=","multiplicity":"","_parent":"AAAAAAFraUHSqigYgaQ=","visibility":"public","name":"Attribute1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFraUHSqigac8g="}
+{"reference":"AAAAAAFraUEOYCerV1A=","multiplicity":"","_parent":"AAAAAAFraUHSqigYgaQ=","visibility":"public","name":"Attribute3","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFraUHSqigZJXY="}
+{"_parent":"AAAAAAFraUEOYCerV1A=","visibility":"public","name":"Attribute1","_type":"UMLAttribute","_id":"AAAAAAFraUGEKyfUFoE=","type":""}
+{"_parent":"AAAAAAFraUEOYCerV1A=","visibility":"public","name":"Attribute2","_type":"UMLAttribute","_id":"AAAAAAFraUGLrCfaKbk=","type":""}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class2","_type":"UMLClass","_id":"AAAAAAFraUGgPifg\/88="}
+{"_parent":"AAAAAAFraUGgPifg\/88=","visibility":"public","name":"Attribute3","_type":"UMLAttribute","_id":"AAAAAAFraUGnBigKln8=","type":""}
+{"_parent":"AAAAAAFraUGgPifg\/88=","visibility":"public","name":"Attribute4","_type":"UMLAttribute","_id":"AAAAAAFraUGyNSgRyhA=","type":""}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class3","_type":"UMLClass","_id":"AAAAAAFrbanmbfsN8kQ="}
+{"_parent":"AAAAAAFrbanmbfsN8kQ=","name":"Atri1","_type":"UMLAssociation","end2":"AAAAAAFrbaoJPvvBCEk=","end1":"AAAAAAFrbaoJPvvAH3c=","_id":"AAAAAAFrbaoJPvu\/Oss="}
+{"reference":"AAAAAAFrbanugftFEQo=","multiplicity":"","_parent":"AAAAAAFrbaoJPvu\/Oss=","visibility":"public","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrbaoJPvvBCEk="}
+{"reference":"AAAAAAFrbanmbfsN8kQ=","multiplicity":"","_parent":"AAAAAAFrbaoJPvu\/Oss=","visibility":"public","name":"Attri","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrbaoJPvvAH3c="}
+{"_parent":"AAAAAAFrbanmbfsN8kQ=","visibility":"public","name":"Attribute1","_type":"UMLAttribute","_id":"AAAAAAFrban2sfuGWLw=","type":""}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class4","_type":"UMLClass","_id":"AAAAAAFrbanugftFEQo="}
+{"_parent":"AAAAAAFrbanugftFEQo=","visibility":"public","name":"Attribute1","_type":"UMLAttribute","_id":"AAAAAAFrban+gvukP00=","type":""}
+END_OF_MODEL

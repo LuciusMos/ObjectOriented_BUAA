@@ -1,0 +1,10 @@
+@startuml
+Main -> Input: Start
+Input -> RequestQueue: Add requests
+RequestQueue -> RequestSplit: Split the request if needed
+RequestQueue <-- RequestSplit: Return the split result
+Main -> Elevator: Start
+Elevator -> RequestQueue: Ask for requests-alloc
+Elevator <-- RequestQueue: Alloc requests
+Elevator -> Elevator: Process requests
+@enduml

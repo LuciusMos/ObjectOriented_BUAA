@@ -1,0 +1,59 @@
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class1","_type":"UMLClass","_id":"AAAAAAFrEiIbpJFLSXs="}
+{"_parent":"AAAAAAFrEiIbpJFLSXs=","visibility":"private","name":"privateAttribute","_type":"UMLAttribute","_id":"AAAAAAFrEiSTapGfPpQ=","type":"int"}
+{"_parent":"AAAAAAFrEiIbpJFLSXs=","visibility":"public","name":"publicAttribute","_type":"UMLAttribute","_id":"AAAAAAFrEiVDkJGnZZk=","type":"int"}
+{"_parent":"AAAAAAFrEiIbpJFLSXs=","visibility":"private","name":"commonOuter","_type":"UMLAttribute","_id":"AAAAAAFrEib0bZHO\/Ng=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class2","_type":"UMLClass","_id":"AAAAAAFrEiRsSpF0VM4="}
+{"_parent":"AAAAAAFrEiRsSpF0VM4=","visibility":"public","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrEir6vpIr\/UA="}
+{"_parent":"AAAAAAFrEiRsSpF0VM4=","visibility":"private","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrEisMmJIxUTE="}
+{"_parent":"AAAAAAFrEiRsSpF0VM4=","visibility":"public","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrEiusKZI\/sII="}
+{"_parent":"AAAAAAFrEiRsSpF0VM4=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrEi165JJrfR4=","source":"AAAAAAFrEiRsSpF0VM4=","target":"AAAAAAFrEiIbpJFLSXs="}
+{"_parent":"AAAAAAFrEiRsSpF0VM4=","visibility":"private","name":"privateAttribute","_type":"UMLAttribute","_id":"AAAAAAFrEiWd\/pGvVo4=","type":"int"}
+{"_parent":"AAAAAAFrEiRsSpF0VM4=","visibility":"private","name":"commonInter","_type":"UMLAttribute","_id":"AAAAAAFrEiXN9ZG23BQ=","type":"int"}
+{"_parent":"AAAAAAFrEiRsSpF0VM4=","visibility":"public","name":"commonInter","_type":"UMLAttribute","_id":"AAAAAAFrEiX8jZG9HOk=","type":"int"}
+{"_parent":"AAAAAAFrEiRsSpF0VM4=","visibility":"public","name":"commonOuter","_type":"UMLAttribute","_id":"AAAAAAFrEiam2pHHJQo=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class3","_type":"UMLClass","_id":"AAAAAAFrEjEqBJJ8S3I="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class3","_type":"UMLClass","_id":"AAAAAAFrEjE4p5KlNe0="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class4","_type":"UMLClass","_id":"AAAAAAFrEjkyPZLRvA8="}
+{"_parent":"AAAAAAFrEjkyPZLRvA8=","visibility":"public","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrEjl+P5Mj1o4="}
+{"_parent":"AAAAAAFrEjl+P5Mj1o4=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrEjmiGJMq1ic=","type":"int","direction":"return"}
+{"_parent":"AAAAAAFrEjkyPZLRvA8=","visibility":"public","name":"Operation2","_type":"UMLOperation","_id":"AAAAAAFrEjmik5Mslx4="}
+{"_parent":"AAAAAAFrEjmik5Mslx4=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrEjnkMJMzzdk=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrEjkyPZLRvA8=","visibility":"public","name":"Operation3","_type":"UMLOperation","_id":"AAAAAAFrEjnknpM1igA="}
+{"_parent":"AAAAAAFrEjkyPZLRvA8=","visibility":"public","name":"Operation4","_type":"UMLOperation","_id":"AAAAAAFrEjoGD5M724c="}
+{"_parent":"AAAAAAFrEjoGD5M724c=","name":"a","_type":"UMLParameter","_id":"AAAAAAFrEjolrpNCUkI=","type":"int","direction":"in"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class5","_type":"UMLClass","_id":"AAAAAAFrEjlCYpL6KSQ="}
+END_OF_MODEL
+CLASS_OPERATION_COUNT Class4 NON_RETURN
+CLASS_OPERATION_COUNT Class4 RETURN
+CLASS_OPERATION_COUNT Class4 NON_PARAM
+CLASS_OPERATION_COUNT Class4 PARAM
+CLASS_OPERATION_COUNT Class4 ALL
+CLASS_ATTR_COUNT Class2 SELF_ONLY
+CLASS_ATTR_COUNT Class2 ALL
+CLASS_ATTR_COUNT Class3 SELF_ONLY
+CLASS_OPERATION_VISIBILITY Class2 Operation1
+CLASS_ATTR_VISIBILITY Class2 commonInter
+CLASS_ATTR_VISIBILITY Class2 commonOuter
+CLASS_ATTR_VISIBILITY Class2 publicAttribute
+CLASS_INFO_HIDDEN Class1
+CLASS_INFO_HIDDEN Class2
+CLASS_INFO_HIDDEN Class4
+CLASS_INFO_HIDDEN Class5
+
+
+Ok, operation count of class "Class4" is 2.
+Ok, operation count of class "Class4" is 2.
+Ok, operation count of class "Class4" is 3.
+Ok, operation count of class "Class4" is 1.
+Ok, operation count of class "Class4" is 4.
+Ok, attribute count of class "Class2" is 4.
+Ok, attribute count of class "Class2" is 7.
+Failed, duplicated class "Class3".
+Ok, operation visibility of method "Operation1" in class "Class2" is public: 2, protected: 0, private: 1, package-private: 0.
+Failed, duplicated attribute "commonInter" in class "Class2".
+Failed, duplicated attribute "commonOuter" in class "Class2".
+Ok, attribute "publicAttribute" in class "Class2"'s visibility is public.
+No, attribute publicAttribute in Class1, are not hidden.
+No, attribute publicAttribute in Class1, commonInter in Class2, commonOuter in Class2, are not hidden.
+Yes, information of class "Class4" is hidden.
+Yes, information of class "Class5" is hidden.

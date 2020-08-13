@@ -1,0 +1,154 @@
+java -jar jmlunitng.jar demo/Demo.java
+javac -cp jmlunitng.jar demo/**/*.java
+java -jar ../path/openjml.jar -rac demo/Demo.java
+javac -cp jmlunitng.jar demo/*.java
+java -cp jmlunitng.jar demo/Demo_JML_Test
+
+[TestNG] Running:
+  Command line suite
+
+Failed: racEnabled()
+Passed: constructor Demo()
+Failed: static abs(-2147483648)
+Passed: static abs(0)
+Passed: static abs(2147483647)
+Failed: static add(-2147483648, -2147483648)
+Passed: static add(0, -2147483648)
+Passed: static add(2147483647, -2147483648)
+Passed: static add(-2147483648, 0)
+Passed: static add(0, 0)
+Passed: static add(2147483647, 0)
+Passed: static add(-2147483648, 2147483647)
+Passed: static add(0, 2147483647)
+Failed: static add(2147483647, 2147483647)
+Passed: static compare(-2147483648, -2147483648)
+Failed: static compare(0, -2147483648)
+Failed: static compare(2147483647, -2147483648)
+Passed: static compare(-2147483648, 0)
+Passed: static compare(0, 0)
+Passed: static compare(2147483647, 0)
+Failed: static compare(-2147483648, 2147483647)
+Passed: static compare(0, 2147483647)
+Passed: static compare(2147483647, 2147483647)
+Passed: static div(-2147483648, -2147483648)
+Passed: static div(0, -2147483648)
+Passed: static div(2147483647, -2147483648)
+Failed: static div(-2147483648, 0)
+Failed: static div(0, 0)
+Failed: static div(2147483647, 0)
+Passed: static div(-2147483648, 2147483647)
+Passed: static div(0, 2147483647)
+Passed: static div(2147483647, 2147483647)
+Passed: static main(null)
+Passed: static main({})
+Passed: static minus(-2147483648, -2147483648)
+Failed: static minus(0, -2147483648)
+Failed: static minus(2147483647, -2147483648)
+Passed: static minus(-2147483648, 0)
+Passed: static minus(0, 0)
+Passed: static minus(2147483647, 0)
+Passed: static minus(-2147483648, 2147483647)
+Passed: static minus(0, 2147483647)
+Passed: static minus(2147483647, 2147483647)
+Passed: static mod(-2147483648, -2147483648)
+Passed: static mod(0, -2147483648)
+Failed: static mod(2147483647, -2147483648)
+Failed: static mod(-2147483648, 0)
+Failed: static mod(0, 0)
+Failed: static mod(2147483647, 0)
+Passed: static mod(-2147483648, 2147483647)
+Passed: static mod(0, 2147483647)
+Passed: static mod(2147483647, 2147483647)
+Failed: static mult(-2147483648, -2147483648)
+Passed: static mult(0, -2147483648)
+Failed: static mult(2147483647, -2147483648)
+Passed: static mult(-2147483648, 0)
+Passed: static mult(0, 0)
+Passed: static mult(2147483647, 0)
+Failed: static mult(-2147483648, 2147483647)
+Passed: static mult(0, 2147483647)
+Failed: static mult(2147483647, 2147483647)
+Passed: static pow(-Infinity, -2147483648)
+Passed: static pow(0.0, -2147483648)
+Passed: static pow(Infinity, -2147483648)
+Passed: static pow(-Infinity, 0)
+Passed: static pow(0.0, 0)
+Passed: static pow(Infinity, 0)
+Passed: static pow(-Infinity, 2147483647)
+Passed: static pow(0.0, 2147483647)
+Passed: static pow(Infinity, 2147483647)
+
+===============================================
+Command line suite
+Total tests run: 70, Failures: 20, Skips: 0
+===============================================
+
+
+// demo/Demo.java
+package demo;
+
+public class Demo {
+    /*@ public normal_behaviour
+      @ ensures \result == lhs - rhs;
+    */
+    public static int compare(int lhs, int rhs) {
+        return lhs - rhs;
+    }
+    /*@ ensures \result == a + b;
+    */
+    public static int add2(int a, int b) { return a + b; }
+    /*@ ensures \result == a - b;
+     */
+    public static int minus(int a, int b) { return a - b; }
+    /*@ ensures \result == a * b;
+     */
+    public static int mult(int a, int b) { return a * b; }
+    /*@ ensures \result == a / b;
+     */
+    public static int div(int a, int b) { return a / b; }
+    /*@ ensures \result == a % b;
+     */
+    public static int mod(int a, int b) { return a % b; }
+    /*@ public normal_behaviour
+      @ requires a > 0;
+      @ ensures \result == a;
+      @ public normal_behaviour
+      @ requires a <= 0;
+      @ ensures \result == -a;
+     */
+    public static int abs(int a) { return (a > 0)? a : -a; }
+    /*@ ensures \result == Math.pow(a, b);
+     */
+    public static double pow(double a, int b) {
+        double re = 1;
+        for (int i = 0; i < b; i++) {
+            re *= a;
+        }
+        return a;
+    }
+    
+    /*public static boolean contains(String a, String b) {
+        int alen = a.length();
+        int blen = b.length();
+        for (int i = 0; i < alen; i++) {
+            for (int j = 0; j < blen; j++) {
+                if (a.charAt(i + j) != b.charAt(j)) {
+                    break;
+                }
+                if (j == blen - 1) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }*/
+    public static void main(String[] args) {
+        compare(114514,1919810);
+        add2(1, 2);
+        minus(1, 2);
+        mult(1, 2);
+        div(1, 2);
+        abs(1);
+        pow(3.1, 5);
+    }
+}

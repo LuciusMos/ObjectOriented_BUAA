@@ -1,0 +1,1 @@
+Failed when check R003, class/interface (Class1, Class13, Class14, Class2, Class3, Class4, Class8, Interface1, Interface22, Interface24, Interface25, Interface26, Interface38, Interface39, Interface40, Interface6) have duplicate inheritance.
